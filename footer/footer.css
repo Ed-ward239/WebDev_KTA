@@ -1,0 +1,41 @@
+*{
+  font-family: Helvetica, sans-serif;
+}
+.logo, .info_link{
+  width: 50%;
+  height: 9vh;
+  display: inline;
+  position: relative;
+}
+ .logo{
+   width: 50%;
+  
+  float: left;
+}
+.logo, img{
+}
+ .info_link{
+  
+   width: 50%;
+  float: right;
+}
+
+@media screen and (min-width:768px)
+{
+  .logo, .info_link{
+    height: 18vh;
+  }
+}
+
+.info_link, a{
+  list-style:none;
+  text-decoration: none;
+  color: #414141;
+}
+
+div .logo img{
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 100px;
+  height: 100px;
+}
