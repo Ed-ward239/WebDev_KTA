@@ -1,0 +1,12 @@
+.title, content p {
+    color: #ba1313;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url("C:/Users/Desktop/web/practice/asp/Bakery/wwwroot/Helvetica/Helvetica.ttf");
+}
+
+section {
+    font-family: "Helvetica";
+}
